@@ -5,13 +5,13 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'images.unsplash.com',
-        port: '',
+        port: '', // Default HTTPS port (443), no need to specify
         pathname: '/**',
       },
       {
         protocol: 'https',
         hostname: 'images.pexels.com',
-        port: '',
+        port: '', // Default HTTPS port (443)
         pathname: '/**',
       },
     ],
