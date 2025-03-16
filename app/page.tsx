@@ -163,13 +163,13 @@ export default function Home() {
                     Our Story
                   </div>
                   <h2 className="text-3xl font-bold tracking-tighter md:text-4xl text-accent">
-                  Brewing Memories Since 2024
+                    Brewing Memories Since 2024
                   </h2>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Established in 2024, Badda ko Adda is a new venture by Dangali Baddas, born from a love for exceptional coffee, tea, and community. What started as a passion project has quickly grown into a hub for quality beverages and locally inspired food.
+                    Established in 2024, Badda ko Adda is a new venture by Dangali Baddas, born from a love for exceptional coffee, tea, and community. What started as a passion project has quickly grown into a hub for quality beverages and locally inspired food.
                   </p>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  We source the finest beans and tea leaves from around the world, ensuring sustainability and ethical trade in every cup. Our skilled baristas and tea experts craft each drink with care, while our chefs create delicious, locally-sourced dishes to complete your experience.
+                    We source the finest beans and tea leaves from around the world, ensuring sustainability and ethical trade in every cup. Our skilled baristas and tea experts craft each drink with care, while our chefs create delicious, locally-sourced dishes to complete your experience.
                   </p>
                   <div className="pt-4">
                     <h3 className="text-xl font-semibold text-accent mb-2">Our Values</h3>
@@ -187,7 +187,7 @@ export default function Home() {
                           <ChevronRight className="h-3 w-3 text-secondary" />
                         </div>
                         <span>
-                          <strong>Community:</strong> We're proud to be a gathering place for our neighborhood.
+                          <strong>Community:</strong> We&apos;re proud to be a gathering place for our neighborhood.
                         </span>
                       </li>
                       <li className="flex items-start gap-2">
@@ -195,7 +195,7 @@ export default function Home() {
                           <ChevronRight className="h-3 w-3 text-secondary" />
                         </div>
                         <span>
-                          <strong>Sustainability:</strong> We're committed to environmentally friendly practices.
+                          <strong>Sustainability:</strong> We&apos;re committed to environmentally friendly practices.
                         </span>
                       </li>
                     </ul>
@@ -213,13 +213,6 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center gap-6">
-                {/* <Image
-                  src="https://unsplash.com/photos/shallow-focus-photography-of-coffee-beans-in-sack-obV_LM0KjxY"
-                  width={600}
-                  height={400}
-                  alt="Barista preparing coffee"
-                  className="rounded-lg object-cover shadow-xl border-4 border-white"
-                /> */}
                 <Image
                   src="https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3"
                   width={600}
@@ -241,7 +234,7 @@ export default function Home() {
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl text-accent">Visit Us Today</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  We'd love to welcome you to our cafe. Come experience the perfect blend of comfort and taste.
+                  We&apos;d love to welcome you to our cafe. Come experience the perfect blend of comfort and taste.
                 </p>
               </div>
             </div>
@@ -413,4 +406,3 @@ export default function Home() {
     </div>
   )
 }
-
